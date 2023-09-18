@@ -57,29 +57,20 @@ const ArticlesList = () => {
         width:"60%",
         marginLeft:"20%",
     }} >
+        <p className='text-center' >My Articles</p>
         {articles.map(item=>
             <div key={item.id} style={{
                 //width:"80%",
                 //marginLeft:"10%",
                 marginTop:5,
                 padding:5,
-                borderWidth:1.5,
-                borderColor:"black",
-                borderRadius:20,
+                //borderWidth:1.5,
+                //borderColor:"black",
+                //borderRadius:20,
                 display:"flex",
                 flexDirection:"row",
             }} >
-            <span style={{
-               width:"20%",
-            }} >
-                <Image src={davinci} alt='logo' style={{
-                     width:100,
-                     height:100,
-                     marginTop:"5%",
-                     borderRadius:"100%",
-                     marginBottom:"5%"
-                }} />
-            </span>
+            
             <div style={{
                 width:"90%",
                 height:"100%"
@@ -94,6 +85,7 @@ const ArticlesList = () => {
             }} >Blog category: {item.articlecategory}</p>
             <p style={{
                  marginLeft:'10%',
+                 marginBottom:"10%"
             }} >Posted on: {item.articleplatform}</p>
             </div>
             <Link href={item.articlelink} style={{
@@ -103,7 +95,8 @@ const ArticlesList = () => {
                 width:20,
                 height:20,
                 alignContent:"center",
-                marginTop:"50%"
+                marginTop:"50%",
+                color:"blue"
             }} /></Link>
             </div>
         )}

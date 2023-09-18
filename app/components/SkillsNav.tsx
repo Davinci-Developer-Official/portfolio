@@ -24,7 +24,7 @@ const SkillsNav = () => {
             paddingTop:"10%",
             textAlign:"center",
             color:"rgba(148, 133, 242, 1)"
-        }}>Software Development</p></div>
+        }}>Software Dev</p></div>
         <div style={{
             width:"18%",
             //backgroundColor:"rgba(219, 37, 235, 1)",
@@ -33,7 +33,7 @@ const SkillsNav = () => {
             //borderRadius:20,
             //borderWidth:1.5,
             //borderColor:"rgba(219, 37, 235, 1)"
-        }}><p className='sm:text-sm md:text-lg lg:text-xl' style={{
+        }}><p className='sm:text-xs md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
             color:"rgba(219, 37, 235, 1)"
@@ -46,7 +46,7 @@ const SkillsNav = () => {
             //borderRadius:20,
             //borderWidth:1.5,
             //borderColor:"rgba(190, 83, 83, 1)"
-        }}><p className='sm:text-sm md:text-lg lg:text-xl' style={{
+        }}><p className='sm:text-xs md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
             color:"rgba(190, 83, 83, 1)"
@@ -59,7 +59,7 @@ const SkillsNav = () => {
             //borderRadius:20,
             //borderWidth:1.5,
             //borderColor:"rgba(144, 2, 255, 1)"
-        }}><p className='sm:text-sm md:text-lg lg:text-xl' style={{
+        }}><p className='sm:text-xs md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
             color:"rgba(144, 2, 255, 1)"
@@ -73,7 +73,7 @@ const SkillsNav = () => {
             //borderWidth:1.5,
             //borderColor:"rgba(37, 225, 124, 1)"
         }}>
-            <p className='sm:text-sm md:text-lg lg:text-xl' style={{
+            <p className='sm:text-xs md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
             color:"rgba(37, 225, 124, 1)"

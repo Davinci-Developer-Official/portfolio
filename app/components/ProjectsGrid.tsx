@@ -116,40 +116,27 @@ const ProjectsGrid = () => {
     ]
 
   return (
-    <div  style={{
-        display:"grid",
-        gridTemplateColumns:"repeat(auto-fill, minmax(20%, 1fr))",
-        gap:"10px",
-        
-    }} >
-        {projects.map(item=>(
-            <div key={item.id} className="card w-96 bg-blue-600 shadow-xl mr-20 " style={{
-                marginLeft:5,
-                marginRight:5,
-                marginTop:5,
-                marginBottom:5,
-                
-            }} >
-            <figure  ><Image src={davinci} alt="project image" className='w-96' /></figure>
-            <div className="card-body">
-              <h2 className="card-title">
-                {item.projectname}
-                card  <Link href={item.projectlink} className="badge badge-secondary" >
-                    <FontAwesomeIcon icon={faLink} style={{
-                        height:20,
-                        width:20,
-                    }} />  github                        
-                </Link>
-              </h2>
-              <p>{item.projectdescription}</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">{item.languagesused}</div> 
-                <div className="badge badge-outline">{item.contributor}</div>
-              </div>
-            </div>
-          </div>
-        ))}
+    <div className="flex flex-wrap justify-center">
+  {projects.map((item) => (
+    <div
+      key={item.id}
+      className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4"
+    >
+      <div className="bg-white shadow-md rounded p-4">
+      <p className="font-bold text-2xl text-center ">{item.projectname}</p>
+        <div className='flex flex-row justify-evenly' >
+        <p>{item.projectlink}</p>
+        <Link href={item.projectlink} ><FontAwesomeIcon icon={faLink} width="20px" height="20px" color='blue' /></Link>
+        </div>       
+        <p className="mt-2 text-xl font-semibold ">{item.projectdescription}</p>
+        <p className='text-right italic' >{item.languagesused}</p>
+        <p className='text-center'>{item.contributor}</p>
+      </div>
     </div>
+  ))}
+</div>
+
+  
   )
 }
 
