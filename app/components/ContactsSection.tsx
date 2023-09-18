@@ -59,6 +59,12 @@ const ContactsSection = () => {
             platfromlink:"https://www.youtube.com/channel/UCxdMgzEWNPOWOEJ6VFO_wKg",
             accountname:"Thomas Mithamo"
         },
+        {
+            id:9,
+            platformname:"facebook",
+            platfromlink:"https://www.facebook.com/thomas.mithamo.73",
+            accountname:"Thomas Mithamo"
+        }
 
     ]
   return (
