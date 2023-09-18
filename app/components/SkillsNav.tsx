@@ -16,9 +16,9 @@ const SkillsNav = () => {
             //backgroundColor:"rgba(148, 133, 242, 1)",
             height:"80px",
             marginTop:"5px",
-            borderRadius:20,
-            borderColor:"rgba(148, 133, 242, 1)",
-            borderWidth:1.5
+            //borderRadius:20,
+            //borderColor:"rgba(148, 133, 242, 1)",
+            //borderWidth:1.5
         }}>
             <p className='sm:text-sm md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
@@ -30,9 +30,9 @@ const SkillsNav = () => {
             //backgroundColor:"rgba(219, 37, 235, 1)",
             height:"80px",
             marginTop:"5px",
-            borderRadius:20,
-            borderWidth:1.5,
-            borderColor:"rgba(219, 37, 235, 1)"
+            //borderRadius:20,
+            //borderWidth:1.5,
+            //borderColor:"rgba(219, 37, 235, 1)"
         }}><p className='sm:text-sm md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
@@ -43,9 +43,9 @@ const SkillsNav = () => {
             //backgroundColor:"rgba(190, 83, 83, 1)",
             height:"80px",
             marginTop:"5px",
-            borderRadius:20,
-            borderWidth:1.5,
-            borderColor:"rgba(190, 83, 83, 1)"
+            //borderRadius:20,
+            //borderWidth:1.5,
+            //borderColor:"rgba(190, 83, 83, 1)"
         }}><p className='sm:text-sm md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
@@ -56,9 +56,9 @@ const SkillsNav = () => {
             //backgroundColor:"rgba(144, 2, 255, 1)",
             height:"80px",
             marginTop:"5px",
-            borderRadius:20,
-            borderWidth:1.5,
-            borderColor:"rgba(144, 2, 255, 1)"
+            //borderRadius:20,
+            //borderWidth:1.5,
+            //borderColor:"rgba(144, 2, 255, 1)"
         }}><p className='sm:text-sm md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
             textAlign:"center",
@@ -69,9 +69,9 @@ const SkillsNav = () => {
             //backgroundColor:"rgba(37, 225, 124, 1)",
             height:"80px",
             marginTop:"5px",
-            borderRadius:20,
-            borderWidth:1.5,
-            borderColor:"rgba(37, 225, 124, 1)"
+            //borderRadius:20,
+            //borderWidth:1.5,
+            //borderColor:"rgba(37, 225, 124, 1)"
         }}>
             <p className='sm:text-sm md:text-lg lg:text-xl' style={{
             paddingTop:"10%",
