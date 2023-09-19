@@ -129,8 +129,8 @@ const ProjectsGrid = () => {
         <Link href={item.projectlink} ><FontAwesomeIcon icon={faLink} width="20px" height="20px" color='blue' /></Link>
         </div>       
         <p className="mt-2 text-xl font-semibold ">{item.projectdescription}</p>
-        <p className='text-right italic' >{item.languagesused}</p>
-        <p className='text-center'>{item.contributor}</p>
+        <p className='text-right italic font-bold text-blue-400 ' >{item.languagesused}</p>
+        <p className='text-left'>contributors: {item.contributor}</p>
       </div>
     </div>
   ))}
