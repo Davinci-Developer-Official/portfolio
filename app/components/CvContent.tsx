@@ -29,7 +29,7 @@ const CvContent = () => {
             <p>
             My names are Thomas Joseph Ngunyi Mithamo. I am a undergraduate
 Software Engineering student at Zetech University Ruiru campus.
-I am applying for a junior developer role at your company,i have around
+I am applying for a junior developer role/internship/attachment at your institution,i have around
 four years experience in software development for which I spent most of
 the time researching,learning,adapting,experimenting and working on both
 personal projects and contracted freelance jobs both local and online.
