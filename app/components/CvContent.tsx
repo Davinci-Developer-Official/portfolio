@@ -77,8 +77,7 @@ knowledgeable with:
                 fontWeight:"bold"
             }} >Employment</h4>
         <p>
-        I previously worked as a intern at Glitex solutions limited for six months
-but mostly I have worked independently on personal projects and freelance
+         I have worked independently on personal projects and freelance
 jobs both local and online.
         </p>
         <h5 style={{
