@@ -46,9 +46,9 @@ completed my primary education then I progressed to Baricho Boys High
 school where I joined and completed my high school education then later
 I enrolled to Zetech university.
 A brief education summary:
-2002 – 2008 Jema primary school.
-2008 – 2013 St Benedict boys primary school,
-2013 – 2018 Baricho High School
+2004- 2009 Jema primary school.
+2010 – 2014 St Benedict boys primary school,
+2015 – 2018 Baricho High School
 2019-current Zetech University,
         </p>
         <h3 style={{
