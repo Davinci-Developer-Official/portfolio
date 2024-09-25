@@ -16,8 +16,8 @@ const CvContent = () => {
                 textAlign:"center",
             }} > 
                 Name :Thomas Ngunyi Mithamo.<br/>
-                MOBILE: (254)113477249 /0750135291<br/>
-                EMAIL: @thomasmithamo01@gmail.com
+                MOBILE: (254)113477249 /+254784253699<br/>
+                EMAIL: @thomasmithamo01@gmail.com /mithamothomas@zetech.ac.ke /thomasnjon@gmail.com
             </p>
             <div>
            <h1 style={{
