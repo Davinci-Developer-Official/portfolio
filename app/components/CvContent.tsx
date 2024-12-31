@@ -62,13 +62,6 @@ technology and software development fields and I have become
 knowledgeable with:
 .Full stack Web Development
 .Android Development both Hybrid & Native
-.Data structure and algorithms
-.Object Oriented Programming
-.System Analysis and Design
-.Object Oriented System Analysis and Design
-.Distributed Systems
-.Cisco Networking
-.Web3(still learning )
 .Operating systems(I use Ubuntu Linux and windows 10);
         </p>
         <h4 style={{
