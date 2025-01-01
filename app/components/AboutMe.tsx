@@ -20,7 +20,7 @@ const AboutMe = () => {
       <div>
         <h1 className="text-5xl font-bold">About Me</h1>
         <p className="py-6 text-2xl italic ">
-        I'm a Kenyan-born software developer with over 4 years of experience. My expertise includes software development, UI/UX design, technical blogging, graphic design, and open-source contributions. I actively share tech content on social platforms like Twitter, YouTube, Instagram, and Facebook, fostering a robust online tech community. You can find my detailed CV on LinkedIn, showcasing my career achievements and contributions to the tech industry. I'm passionate, versatile, and committed to making a positive impact in the world of technology.
+        I'm a Kenyan-born software developer with over 4 years of experience. My expertise includes software development, UI/UX design, technical blogging, and open-source contributions. I am currently looking forward to sharing tech content on social platforms like Twitter, YouTube, Instagram, and Facebook to grow and foster a robust online tech community. You can find my detailed CV on LinkedIn, showcasing my career achievements and contributions to the tech industry. I'm passionate, versatile, and committed to making a positive impact in the world of technology.
         </p>
        <ViewCvBtn/>
       </div>
