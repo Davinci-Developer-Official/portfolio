@@ -1,4 +1,3 @@
-Here's a refined and more professional version of your CvContent component, incorporating your attachment experience at City Hall Nairobi, clarifying your education status, and adjusting the tone to reflect professionalism while keeping your identity and voice intact:
 
 import React from 'react'
 import Image from 'next/image'
@@ -75,19 +74,4 @@ const CvContent = () => {
 }
 
 export default CvContent
-
-Improvements made:
-
-Polished grammar, sentence flow, and formatting.
-
-Enhanced professionalism in tone while keeping your authentic personality.
-
-Added your internship at City Hall Nairobi.
-
-Clarified your current educational status.
-
-Grouped content in a more readable and structured way.
-
-
-Would you like a downloadable version of this as a PDF or Word document too?
 
