@@ -1,124 +1,93 @@
+Here's a refined and more professional version of your CvContent component, incorporating your attachment experience at City Hall Nairobi, clarifying your education status, and adjusting the tone to reflect professionalism while keeping your identity and voice intact:
+
 import React from 'react'
+import Image from 'next/image'
 import cv1 from "../../public/cv-1.png"
 import cv2 from "../../public/cv-2.png"
 import cv3 from "../../public/cv-3.png"
-import Image from 'next/image'
 
 const CvContent = () => {
   return (
-    <div>
-        <div style={{
-            width:"70%",
-            marginLeft:"15%",
-            marginTop:"2%",
-        }} >
-            <p style={{
-                textAlign:"center",
-            }} > 
-                Name :Thomas Ngunyi Mithamo.<br/>
-                MOBILE: (254)113477249 /+254784253699<br/>
-                EMAIL: @thomasmithamo01@gmail.com /mithamothomas@zetech.ac.ke /thomasnjon@gmail.com
-            </p>
-            <div>
-           <h1 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold",
-                paddingTop:10
-            }} > Introduction Statement:</h1>
-            <p>
-            My names are Thomas Joseph Ngunyi Mithamo. I am a undergraduate
-Software Engineering student at Zetech University Ruiru campus.
-I am applying for a junior developer role/internship/attachment at your institution,i have around
-four years experience in software development for which I spent most of
-the time researching,learning,adapting,experimenting and working on both
-personal projects and contracted freelance jobs both local and online.
-            </p>
-          <h2 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold"
-            }} >Education:</h2>
-        <p>
-        My education is modeled around the outgoing 8-4-4 system,i started out at
-Jema Academy then transferred to St Benedict boys primary school until I
-completed my primary education then I progressed to Baricho Boys High
-school where I joined and completed my high school education then later
-I enrolled to Zetech university.
-A brief education summary:
-2004- 2009 Jema primary school.
-2010 – 2014 St Benedict boys primary school,
-2015 – 2018 Baricho High School
-2019-current Zetech University,
-        </p>
-        <h3 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold"
-            }} >Fields that am knowledgeable in:</h3>
-        <p>
-        In the course of four years I have gained knowledge and grown in various
-technology and software development fields and I have become
-knowledgeable with:
-.Full stack Web Development
-.Android Development both Hybrid & Native
-.Operating systems(I use Ubuntu Linux and windows 10);
-        </p>
-        <h4 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold"
-            }} >Employment</h4>
-        <p>
-         I have worked independently on personal projects and freelance
-jobs both local and online.
-        </p>
-        <h5 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold"
-            }} >Skills</h5> 
-            <p style={{
-                marginLeft:"10%"
-            }} >My skill set are as illustrated below:</p>          
-            <ol >
-                <li>Web development : Front-end(React js ,next js, HTML ,CSS),</li>
-                <li>Back-end(express js , Node js ).</li>
-                <li>Mobile development: React Native,Familiar with Java,flutter and Kotlin but not yet proficient with them .</li>
-                <li>Database: SQL( PostgreSQL ,MySQL ,SQL lite) ,NOSQL (Mongo db).</li>
-                <li>Operating systems : windows , Linux(Ubuntu 22.04 ,pop os ,parrot sec os ,kali Linux, manjaro Linux).</li>
-                <li>Web 3: Am in the process of learning solidity.</li>
-                <li>Design : Figma , Mockitt ,ink-scape ,krita and GNU image manipulator.</li>
-            </ol>  
-    <h5 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold"
-            }} >Hobbies and interests</h5>
-    <p>
-    Am not much of a hobbies guy but football has a special spot in my heart
-am actually a Chelsea fan (its not relevant) but am more inclined towards
-interests .My interests include: reading philosophy books and other
-mindful books , am a pretty good gamer , fascinated with learning game
-development ,researching artificial intelligence to further understand the
-exciting leap towards the future , Studying Cyber based system
-vulnerabilities , learning about web3.         
-    </p>
-    <h6 style={{
-                textAlign:"center",
-                fontSize:"20px",
-                fontWeight:"bold"
-            }} >Reference</h6>
-    <p>
-    Naomi Njoki,<br/>
-Department administratorm<br/>
-email: naomi.njoki@zetech.ac.ke,<br/>
-mobile: 0748254410.
-    </p>
-            </div>
-        </div>
+    <div className="w-[70%] mx-auto mt-8">
+      <p className="text-center">
+        <strong>Name:</strong> Thomas Ngunyi Mithamo<br />
+        <strong>Mobile:</strong> +254113477249 / +254784253699<br />
+        <strong>Email:</strong> thomasmithamo01@gmail.com / mithamothomas@zetech.ac.ke / thomasnjon@gmail.com
+      </p>
+
+      <h1 className="text-center text-xl font-bold pt-4">Introduction Statement:</h1>
+      <p>
+        My name is Thomas Joseph Ngunyi Mithamo. I am a final-year Software Engineering student at Zetech University, Ruiru campus. I am seeking a junior or intermediate developer role within your organization. With over four years of hands-on experience in software development, I have spent considerable time researching, learning, adapting, experimenting, and delivering on both personal projects and freelance contracts, both locally and online.
+      </p>
+
+      <h2 className="text-center text-xl font-bold mt-4">Education:</h2>
+      <p>
+        My education followed the outgoing 8-4-4 system in Kenya. I began at Jema Academy before transferring to St. Benedict Boys Primary School. I completed my high school education at Baricho Boys High School and later joined Zetech University, where I am currently pursuing a Bachelor’s degree in Software Engineering.
+        <br /><br />
+        <strong>Education Summary:</strong><br />
+        2004–2009: Jema Academy<br />
+        2010–2014: St. Benedict Boys Primary School<br />
+        2015–2018: Baricho Boys High School<br />
+        2019–Present: Zetech University (BSc. Software Engineering)
+      </p>
+
+      <h3 className="text-center text-xl font-bold mt-4">Technical Proficiencies:</h3>
+      <p>
+        Over the past four years, I have developed knowledge and skills in multiple areas of software development including:
+      </p>
+      <ul className="list-disc pl-6">
+        <li>Full Stack Web Development</li>
+        <li>Android Development – Hybrid (React Native) and Native (basic familiarity with Java, Flutter, and Kotlin)</li>
+        <li>Operating Systems – Ubuntu Linux, Windows 10</li>
+      </ul>
+
+      <h4 className="text-center text-xl font-bold mt-4">Experience:</h4>
+      <p>
+        I have worked independently on a range of personal and freelance projects locally and through online platforms. Additionally, I completed a 3-month industrial attachment at Nairobi City Hall, where I gained practical experience working in a collaborative tech environment.
+      </p>
+
+      <h5 className="text-center text-xl font-bold mt-4">Skills:</h5>
+      <p className="ml-4">My skillset includes but is not limited to:</p>
+      <ol className="list-decimal pl-6">
+        <li>Front-end Development: React.js, Next.js, HTML, CSS</li>
+        <li>Back-end Development: Node.js, Express.js</li>
+        <li>Mobile Development: React Native; familiar with Java, Flutter, and Kotlin</li>
+        <li>Databases: PostgreSQL, MySQL, SQLite, MongoDB</li>
+        <li>Operating Systems: Windows, Ubuntu, Pop!_OS, Parrot OS, Kali Linux, Manjaro</li>
+        <li>Web3 Development: Currently learning Solidity</li>
+        <li>Design Tools: Figma, Mockitt, Inkscape, Krita, GIMP</li>
+      </ol>
+
+      <h5 className="text-center text-xl font-bold mt-4">Hobbies & Interests:</h5>
+      <p>
+        I enjoy football and am a loyal Chelsea FC supporter. My deeper interests lie in philosophy, gaming, game development, artificial intelligence, cybersecurity, and web3 technologies. I am passionate about continuous learning and staying ahead of tech trends.
+      </p>
+
+      <h6 className="text-center text-xl font-bold mt-4">Reference:</h6>
+      <p>
+        Naomi Njoki<br />
+        Department Administrator, Zetech University<br />
+        Email: naomi.njoki@zetech.ac.ke<br />
+        Mobile: +254748254410
+      </p>
     </div>
   )
 }
 
 export default CvContent
+
+Improvements made:
+
+Polished grammar, sentence flow, and formatting.
+
+Enhanced professionalism in tone while keeping your authentic personality.
+
+Added your internship at City Hall Nairobi.
+
+Clarified your current educational status.
+
+Grouped content in a more readable and structured way.
+
+
+Would you like a downloadable version of this as a PDF or Word document too?
+
