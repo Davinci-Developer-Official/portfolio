@@ -2,81 +2,112 @@ import React from 'react'
 
 const CvContent = () => {
   return (
-    <div className="w-[70%] mx-auto mt-8 text-sm leading-relaxed">
-      <p className="text-center">
-        <strong>Name:</strong> Thomas Ngunyi Mithamo<br />
-        <strong>Mobile:</strong> +254113477249 / +254784253699<br />
-        <strong>Email:</strong> thomasmithamo01@gmail.com / mithamothomas@zetech.ac.ke / thomasnjon@gmail.com
-      </p>
+    <div className="w-[70%] mx-auto mt-8 text-sm leading-relaxed text-gray-800">
+      {/* Contact Information */}
+      <div className="text-center mb-6">
+        <p>
+          <strong className="block">Name:</strong> Thomas Ngunyi Mithamo
+        </p>
+        <p>
+          <strong className="block">Mobile:</strong> +254 113 477 249 / +254 784 253 699
+        </p>
+        <p>
+          <strong className="block">Email:</strong> thomasmithamo01@gmail.com / mithamothomas@zetech.ac.ke / thomasnjon@gmail.com
+        </p>
+      </div>
 
-      <h1 className="text-center text-xl font-bold pt-4">Introduction Statement:</h1>
+      {/* Introduction */}
+      <h2 className="text-center text-xl font-bold mb-2">Professional Summary</h2>
       <p>
-        I am a final-year Software Engineering student pursuing a Diploma at Zetech University, Ruiru Campus. Since 2018, I’ve been actively building software — gaining hands-on experience through personal projects, freelance work, and an industrial attachment. With over 49 projects on GitHub and exposure to full-stack and mobile development, I’m seeking a junior or intermediate developer role in a fast-paced and impact-driven tech environment.
+        I am a final-year Diploma student in Software Engineering at Zetech University (Ruiru Campus), with over 6 years of hands-on experience in full-stack and mobile application development. Since 2018, I have built over 49 personal and freelance projects (available on GitHub), contributed to open-source projects, and gained professional exposure through a 4-month industrial attachment at Nairobi City Hall. I am now seeking junior or intermediate developer roles where I can contribute to building scalable and meaningful technology products.
       </p>
 
-      <h2 className="text-center text-xl font-bold mt-4">Education:</h2>
-      <p>
-        My education followed the Kenyan 8-4-4 system. I began at Jema Academy, later transferred to St. Benedict Boys Primary School, completed my high school education at Baricho Boys, and joined Zetech University where I’m currently pursuing a Diploma in Software Engineering.
-        <br /><br />
-        <strong>Education Summary:</strong><br />
-        2004–2009: Jema Academy<br />
-        2010–2014: St. Benedict Boys Primary School<br />
-        2015–2018: Baricho Boys High School<br />
-        2019–Present: Zetech University (Diploma in Software Engineering)
-      </p>
-
-      <h3 className="text-center text-xl font-bold mt-4">Technical Proficiencies:</h3>
-      <p>
-        I’ve developed proficiency in a wide range of technologies and workflows including:
-      </p>
-      <ul className="list-disc pl-6">
-        <li>Full Stack Web Development (React.js, Next.js, Node.js, Express.js)</li>
-        <li>Mobile App Development using React Native</li>
-        <li>Basic Native Development with Java, Flutter, Kotlin</li>
-        <li>Operating Systems – Ubuntu Linux, Windows, Kali Linux, Manjaro, Parrot OS</li>
-        <li>Version Control & Collaboration – Git, GitHub (49+ repositories)</li>
-      </ul>
-
-      <h4 className="text-center text-xl font-bold mt-4">Experience:</h4>
-      <p>
-        I have worked on numerous freelance and personal projects since 2018. In early 2024, I completed a 4-month industrial attachment at Nairobi City Hall’s ICT department, where I contributed to internal system maintenance and support tasks. I continue to work independently and contribute to open-source projects on GitHub.
-      </p>
-
-      <h5 className="text-center text-xl font-bold mt-4">Skills:</h5>
-      <ol className="list-decimal pl-6">
-        <li>Front-end: React.js, Next.js, HTML, CSS, Tailwind</li>
-        <li>Back-end: Node.js, Express.js</li>
-        <li>Mobile: React Native, Java, Flutter, Kotlin</li>
-        <li>Databases: PostgreSQL, MySQL, SQLite, MongoDB</li>
-        <li>Operating Systems: Ubuntu, Windows, Kali, Parrot OS, Manjaro</li>
-        <li>Web3 & Solidity (learning)</li>
-        <li>Deployment: Vercel, Firebase, Supabase</li>
-      </ol>
-
-      <h5 className="text-center text-xl font-bold mt-4">Target Roles & Areas of Interest:</h5>
-      <p>
-        I am focused on growing in roles that allow me to build, contribute, and solve problems using modern tools and frameworks. My primary interest areas include:
-      </p>
+      {/* Target Roles */}
+      <h2 className="text-center text-xl font-bold mt-6 mb-2">Target Roles & Areas of Interest</h2>
       <ul className="list-disc pl-6">
         <li>Junior Full Stack Developer</li>
         <li>React.js / Front-End Developer</li>
         <li>React Native Developer</li>
-        <li>Graduate Trainee / Web Developer Intern</li>
+        <li>Graduate Trainee / Web Development Intern</li>
         <li>Open Source Contributor</li>
       </ul>
 
-      <h5 className="text-center text-xl font-bold mt-4">Hobbies & Interests:</h5>
+      {/* Technical Skills */}
+      <h2 className="text-center text-xl font-bold mt-6 mb-2">Technical Skills</h2>
+      <ul className="list-disc pl-6">
+        <li>Front-End: React.js, Next.js, HTML5, CSS3, Tailwind CSS</li>
+        <li>Back-End: Node.js, Express.js</li>
+        <li>Mobile: React Native, Java, Flutter, Kotlin (basic)</li>
+        <li>Databases: PostgreSQL, MySQL, SQLite, MongoDB</li>
+        <li>Version Control: Git, GitHub (49+ repositories)</li>
+        <li>Deployment: Vercel, Firebase, Supabase</li>
+        <li>Web3 & Solidity (currently learning)</li>
+        <li>Operating Systems: Ubuntu Linux, Windows, Manjaro, Kali, Parrot OS</li>
+      </ul>
+
+      {/* Work Experience */}
+      <h2 className="text-center text-xl font-bold mt-6 mb-2">Experience</h2>
       <p>
-        I enjoy football (Chelsea FC fan), gaming, and diving into philosophy. I also explore topics in AI, cybersecurity, game development, and Web3. I'm driven by curiosity, learning, and staying ahead of evolving tech trends.
+        <strong>Freelance & Personal Projects (2018 – Present)</strong><br />
+        • Developed a wide range of full-stack and mobile apps using React, Next.js, React Native, Node.js, and Firebase.<br />
+        • Delivered custom software solutions to clients in education, logistics, and community sectors across Kenya and globally.<br />
+        • Contributed to open-source projects on GitHub and published reusable components and tools.<br />
+        <br />
+        <strong>Industrial Attachment – Nairobi City Hall ICT Department (Jan 2024 – Apr 2024)</strong><br />
+        • Participated in software maintenance, internal system support, and technical documentation.<br />
+        • Worked alongside senior ICT officers to troubleshoot user issues and maintain service reliability.
       </p>
 
-      <h6 className="text-center text-xl font-bold mt-4">Reference:</h6>
+      {/* Education */}
+      <h2 className="text-center text-xl font-bold mt-6 mb-2">Education</h2>
       <p>
-        Naomi Njoki<br />
-        Department Administrator, Zetech University<br />
-        Email: naomi.njoki@zetech.ac.ke<br />
-        Mobile: +254748254410
+        <strong>Zetech University</strong><br />
+        Diploma in Software Engineering (2019 – Present)
       </p>
+      <p className="mt-2">
+        <strong>Baricho Boys High School</strong><br />
+        Kenya Certificate of Secondary Education (KCSE) (2015 – 2018)
+      </p>
+      <p className="mt-2">
+        <strong>St. Benedict Boys Primary School</strong><br />
+        Kenya Certificate of Primary Education (KCPE) (2010 – 2014)
+      </p>
+      <p className="mt-2">
+        <strong>Jema Academy</strong><br />
+        Lower Primary Education (2004 – 2009)
+      </p>
+
+      {/* References */}
+      <h2 className="text-center text-xl font-bold mt-6 mb-2">References</h2>
+      <div className="space-y-3">
+        <p>
+          <strong>Naomi Njoki</strong><br />
+          Department Administrator, Zetech University<br />
+          Email: naomi.njoki@zetech.ac.ke<br />
+          Mobile: +254 748 254 410
+        </p>
+        <p>
+          <strong>Cyrus Muturi</strong><br />
+          Freelance Client<br />
+          Mobile: +254 708 538 399
+        </p>
+        <p>
+          <strong>Oscar Muthoka</strong><br />
+          GGIS Freelance Client<br />
+          Mobile: +254 716 035 220
+        </p>
+        <p>
+          <strong>Florence Hill</strong><br />
+          Freelance Client<br />
+          Email: hillwflorence@gmail.com<br />
+          Mobile: +1 (515) 707-4317
+        </p>
+        <p>
+          <strong>Ester</strong><br />
+          Freelance Client<br />
+          Mobile: +1 (206) 941-1609
+        </p>
+      </div>
     </div>
   )
 }
